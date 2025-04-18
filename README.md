@@ -32,17 +32,6 @@
 
 ---
 
-## 📂 Featured Projects
-
-| Project | Description | Tech |
-| ------- | ----------- | ---- |
-| [AwesomeApp](https://github.com/meekshey254/awesomeapp) | A web app that does amazing things | React, Node.js |
-| [DataWizard](https://github.com/meekshey254/datawizard) | Data analysis tool for everyone | Python |
-| [Portfolio Website](https://meekshey254.github.io/) | My personal portfolio website | HTML, CSS, JS |
-
-> 🚀 Check out more projects at [github.com/meekshey254?tab=repositories](https://github.com/meekshey254?tab=repositories)
-
----
 
 ## 📊 GitHub Stats & Badges
 <p align="left">
