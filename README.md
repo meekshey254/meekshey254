@@ -1,9 +1,9 @@
 <!-- Profile Header -->
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/your-github-id?v=4" width="120" style="border-radius:50%" alt="Profile picture"/>
+  <img src="https://avatars.githubusercontent.com/u/147913414?v=4" width="120" style="border-radius:50%" alt="Profile picture"/>
 </p>
 
-<h1 align="center">Hi there, I'm <span style="color:#4F8EF7;">Meekshey254</span> 👋</h1>
+<h1 align="center">Hi there, I'm <span style="color:#4F8EF7;">Meshack Muema</span> 👋</h1>
 <p align="center">A passionate developer, lifelong learner, and open-source enthusiast.</p>
 
 ---
@@ -27,11 +27,23 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <a href="https://www.djangoproject.com/"><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/></a>
   <!-- Add more badges as needed -->
 </p>
 
 ---
 
+## 📂 Featured Projects
+
+| Project | Description | Tech |
+| ------- | ----------- | ---- |
+| [AwesomeApp](https://github.com/meekshey254/awesomeapp) | A web app that does amazing things | React, Node.js |
+| [DataWizard](https://github.com/meekshey254/datawizard) | Data analysis tool for everyone | Python |
+| [Portfolio Website](https://meekshey254.github.io/) | My personal portfolio website | HTML, CSS, JS |
+
+> 🚀 Check out more projects at [github.com/meekshey254?tab=repositories](https://github.com/meekshey254?tab=repositories)
+
+---
 
 ## 📊 GitHub Stats & Badges
 <p align="left">
