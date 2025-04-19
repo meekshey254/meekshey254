@@ -13,7 +13,7 @@
 - 🔭 I’m currently working on exciting software projects
 - 🌱 I’m always learning new technologies
 - 💬 Ask me about web development, Python, or open source
-- 📫 How to reach me: [Email](mailto:meshmuema11@gmail.com) | [LinkedIn](https://www.linkedin.com/in/meshack-muema-b30769272/)
+- 📫 How to reach me: [Email](mailto:meshmuema11@gmail.com) | [LinkedIn](https://www.linkedin.com/in/meshack-muema-b30769272/) | [Whatsapp](https://wa.me/+254743886777)
 - ⚡ Fun fact: I love building cool stuff and collaborating with others!
 
 ---
@@ -46,6 +46,11 @@
 <p>
   <a href="mailto:meshmuema11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/meshack-muema-b30769272/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://wa.me/+254743886777">
+  <a href="https://wa.me/254743886777" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat on WhatsApp" style="width:40px;height:40px;">
+</a>
+
 </p>
 
 ---
@@ -54,9 +59,3 @@
   <img src="https://komarev.com/ghpvc/?username=meekshey254&label=Profile%20views&color=0e75b6&style=flat" alt="meekshey254" />
 </p>
 
-<!--
-**Tips:**
-- Replace all placeholder links (email, LinkedIn, Twitter, project URLs) with your actual info.
-- Add or remove skills, badges, and projects as needed.
-- You can update your profile picture by replacing the avatar URL above with your GitHub profile image link.
--->
