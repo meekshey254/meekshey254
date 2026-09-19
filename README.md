@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on exciting software projects
 - 🌱 I’m always learning new technologies
-- 💬 Ask me about web development, Python, or open source
+- 💬 Ask me about web development, NLP & Python, or open source
 - 📫 How to reach me: [Email](mailto:meshmuema11@gmail.com) | [LinkedIn](https://www.linkedin.com/in/meshack-muema-b30769272/) | [Whatsapp](https://wa.me/+254743886777)
 - ⚡ Fun fact: I love building cool stuff and collaborating with others!
 
