@@ -12,7 +12,7 @@
     <style>
       .stat-num {
         font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 800;
         fill: #f8fafc;
       }
@@ -26,15 +26,14 @@
         font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
         font-size: 11px;
         font-weight: 500;
-        fill: #64748b;
+        fill: #94a3b8;
       }
       .flame {
-        animation: flicker 1.8s infinite ease-in-out;
-        transform-origin: center;
+        animation: pulseGlow 2s infinite ease-in-out;
       }
-      @keyframes flicker {
-        0%, 100% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.12); opacity: 0.85; }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.65; }
       }
     </style>
   </defs>
@@ -51,10 +50,10 @@
     <text x="0" y="78" text-anchor="middle" class="stat-num">18</text>
     <text x="0" y="108" text-anchor="middle" class="stat-label">Total Repositories</text>
     <text x="0" y="130" text-anchor="middle" class="stat-sub">Public &amp; Private Projects</text>
-    <text x="0" y="148" text-anchor="middle" class="stat-sub" fill="#34d399">● Active Development</text>
+    <text x="0" y="150" text-anchor="middle" class="stat-sub" fill="#34d399">● Active Development</text>
   </g>
 
-  <!-- Center Column: Animated Streak Ring -->
+  <!-- Center Column: Streak Ring -->
   <g transform="translate(247.5, 0)">
     <!-- Background Ring -->
     <circle cx="0" cy="82" r="40" fill="none" stroke="#1e293b" stroke-width="5" />
@@ -62,10 +61,10 @@
     <circle cx="0" cy="82" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="220 252" stroke-linecap="round" transform="rotate(-90 0 82)" />
     <!-- Top Flame Badge -->
     <circle cx="0" cy="42" r="13" fill="#0b0f19" />
-    <text x="0" y="47" text-anchor="middle" font-size="16" class="flame">🔥</text>
+    <text x="0" y="48" text-anchor="middle" font-size="15" class="flame">🔥</text>
 
     <!-- Center Metric -->
-    <text x="0" y="91" text-anchor="middle" class="stat-num" fill="#38bdf8">Active</text>
+    <text x="0" y="90" text-anchor="middle" class="stat-num" fill="#38bdf8">Active</text>
     <text x="0" y="144" text-anchor="middle" class="stat-label" fill="#f43f5e">Meshack's GitHub Streak</text>
     <text x="0" y="164" text-anchor="middle" class="stat-sub">Shipping Mobile &amp; Web Code</text>
   </g>
@@ -75,6 +74,6 @@
     <text x="0" y="78" text-anchor="middle" class="stat-num">8+</text>
     <text x="0" y="108" text-anchor="middle" class="stat-label">Core Languages</text>
     <text x="0" y="130" text-anchor="middle" class="stat-sub">Dart • Python • TS/JS</text>
-    <text x="0" y="148" text-anchor="middle" class="stat-sub">SQL • PHP • HTML/CSS • C</text>
+    <text x="0" y="150" text-anchor="middle" class="stat-sub">SQL • PHP • HTML/CSS • C</text>
   </g>
 </svg>

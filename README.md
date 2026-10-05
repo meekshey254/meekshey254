@@ -133,10 +133,10 @@ Built with **Flutter**, **Supabase (PostgreSQL + PostGIS + Realtime)**, and an *
 
 | Channel | Handle / Coordinate | Best For | Direct Action |
 | :--- | :--- | :--- | :---: |
-| **📧 Email** | `meshmuema11@gmail.com` | Project inquiries, engineering roles & formal collaboration | [![](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meshmuema11@gmail.com) |
-| **💼 LinkedIn** | **Meshack Muema** | Professional networking, career updates & endorsements | [![](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meshack-muema-b30769272/) |
-| **💬 WhatsApp** | `+254 743 886777` | Quick real-time chats, consultations & project syncs | [![](https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254743886777) |
-| **🐙 GitHub** | `@meekshey254` | Open-source code, issue discussions & pull requests | [![](https://img.shields.io/badge/Follow_@meekshey254-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/meekshey254) |
+| **📧 Email** | `meshmuema11@gmail.com` | Project inquiries, engineering roles & formal collaboration | [![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meshmuema11@gmail.com) |
+| **💼 LinkedIn** | **Meshack Muema** | Professional networking, career updates & endorsements | [![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meshack-muema-b30769272/) |
+| **💬 WhatsApp** | `+254 743 886777` | Quick real-time chats, consultations & project syncs | [![Chat on WhatsApp](https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254743886777) |
+| **🐙 GitHub** | `@meekshey254` | Open-source code, issue discussions & pull requests | [![Follow meekshey254](https://img.shields.io/badge/Follow_%40meekshey254-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/meekshey254) |
 
 <br/>
 
