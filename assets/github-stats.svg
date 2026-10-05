@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="rankGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <style>
+      .header {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        font-size: 16.5px;
+        font-weight: 700;
+        fill: #38bdf8;
+      }
+      .row-label {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #cbd5e1;
+      }
+      .row-val {
+        font-family: 'Fira Code', 'Consolas', monospace;
+        font-size: 13.5px;
+        font-weight: 700;
+        fill: #f8fafc;
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="495" height="195" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Title -->
+  <text x="26" y="36" class="header">⚡ Meshack Muema's GitHub Stats</text>
+
+  <!-- Stat Rows -->
+  <g transform="translate(26, 66)">
+    <text x="0" y="0" class="row-label">📦 Total Repositories (Public + Private):</text>
+    <text x="295" y="0" class="row-val" fill="#38bdf8">18 Repos</text>
+
+    <text x="0" y="28" class="row-label">🚀 Flagship Systems Engineered:</text>
+    <text x="295" y="28" class="row-val" fill="#34d399">6+ Full-Stack</text>
+
+    <text x="0" y="56" class="row-label">📱 Mobile &amp; Cloud Architectures:</text>
+    <text x="295" y="56" class="row-val" fill="#818cf8">Flutter + Supabase</text>
+
+    <text x="0" y="84" class="row-label">🗄️ Database &amp; Offline Sync Engines:</text>
+    <text x="295" y="84" class="row-val" fill="#c084fc">PostGIS + SQLite</text>
+
+    <text x="0" y="112" class="row-label">🤝 Open-Source &amp; Community Status:</text>
+    <text x="295" y="112" class="row-val" fill="#facc15">Active Builder</text>
+  </g>
+
+  <!-- Right Side Rank Circle -->
+  <g transform="translate(432, 102)">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#1e293b" stroke-width="6" />
+    <circle cx="0" cy="0" r="38" fill="none" stroke="url(#rankGrad)" stroke-width="6" stroke-dasharray="210 240" stroke-linecap="round" transform="rotate(-90)" />
+    <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">A+</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#94a3b8">BUILDER</text>
+  </g>
+</svg>
