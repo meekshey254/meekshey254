@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 210" width="540" height="210">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#111827" />
@@ -12,22 +12,25 @@
     <style>
       .stat-num {
         font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-        font-size: 26px;
+        font-size: 28px;
         font-weight: 800;
-        fill: #f8fafc;
       }
       .stat-label {
         font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
         font-size: 13px;
-        font-weight: 600;
-        fill: #38bdf8;
+        font-weight: 700;
       }
       .stat-sub {
         font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-        font-size: 11px;
+        font-size: 11.5px;
         font-weight: 500;
-        fill: #94a3b8;
       }
+      .c-white { fill: #f8fafc; }
+      .c-blue { fill: #38bdf8; }
+      .c-rose { fill: #f43f5e; }
+      .c-purple { fill: #c084fc; }
+      .c-green { fill: #34d399; }
+      .c-muted { fill: #94a3b8; }
       .flame {
         animation: pulseGlow 2s infinite ease-in-out;
       }
@@ -39,41 +42,41 @@
   </defs>
 
   <!-- Card Frame -->
-  <rect width="495" height="195" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="540" height="210" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
 
-  <!-- Dividers -->
-  <line x1="165" y1="28" x2="165" y2="167" stroke="#1e293b" stroke-width="1.5" />
-  <line x1="330" y1="28" x2="330" y2="167" stroke="#1e293b" stroke-width="1.5" />
+  <!-- Column Dividers (3 Equal Columns of 180px) -->
+  <line x1="180" y1="28" x2="180" y2="182" stroke="#1e293b" stroke-width="1.5" />
+  <line x1="360" y1="28" x2="360" y2="182" stroke="#1e293b" stroke-width="1.5" />
 
-  <!-- Left Column: Total Repositories & Active Commits -->
-  <g transform="translate(82.5, 0)">
-    <text x="0" y="78" text-anchor="middle" class="stat-num">18</text>
-    <text x="0" y="108" text-anchor="middle" class="stat-label">Total Repositories</text>
-    <text x="0" y="130" text-anchor="middle" class="stat-sub">Public &amp; Private Projects</text>
-    <text x="0" y="150" text-anchor="middle" class="stat-sub" fill="#34d399">● Active Development</text>
+  <!-- Left Column (Center x=90): Repositories & Activity -->
+  <g transform="translate(90, 0)">
+    <text x="0" y="80" text-anchor="middle" class="stat-num c-white">18</text>
+    <text x="0" y="112" text-anchor="middle" class="stat-label c-blue">Total Repositories</text>
+    <text x="0" y="136" text-anchor="middle" class="stat-sub c-muted">3 Public • 15 Private</text>
+    <text x="0" y="158" text-anchor="middle" class="stat-sub c-green">● Active Development</text>
   </g>
 
-  <!-- Center Column: Streak Ring -->
-  <g transform="translate(247.5, 0)">
+  <!-- Center Column (Center x=270): Streak Ring -->
+  <g transform="translate(270, 0)">
     <!-- Background Ring -->
-    <circle cx="0" cy="82" r="40" fill="none" stroke="#1e293b" stroke-width="5" />
+    <circle cx="0" cy="82" r="42" fill="none" stroke="#1e293b" stroke-width="5.5" />
     <!-- Active Gradient Ring -->
-    <circle cx="0" cy="82" r="40" fill="none" stroke="url(#ringGrad)" stroke-width="5" stroke-dasharray="220 252" stroke-linecap="round" transform="rotate(-90 0 82)" />
+    <circle cx="0" cy="82" r="42" fill="none" stroke="url(#ringGrad)" stroke-width="5.5" stroke-dasharray="230 264" stroke-linecap="round" transform="rotate(-90 0 82)" />
     <!-- Top Flame Badge -->
-    <circle cx="0" cy="42" r="13" fill="#0b0f19" />
-    <text x="0" y="48" text-anchor="middle" font-size="15" class="flame">🔥</text>
+    <circle cx="0" cy="40" r="13" fill="#0e1525" />
+    <text x="0" y="46" text-anchor="middle" font-size="15" class="flame">🔥</text>
 
-    <!-- Center Metric -->
-    <text x="0" y="90" text-anchor="middle" class="stat-num" fill="#38bdf8">Active</text>
-    <text x="0" y="144" text-anchor="middle" class="stat-label" fill="#f43f5e">Meshack's GitHub Streak</text>
-    <text x="0" y="164" text-anchor="middle" class="stat-sub">Shipping Mobile &amp; Web Code</text>
+    <!-- Center Metric Inside Ring (Fits Cleanly Inside r=42) -->
+    <text x="0" y="91" text-anchor="middle" class="stat-num c-blue">17+</text>
+    <text x="0" y="148" text-anchor="middle" class="stat-label c-rose">Meshack's Streak</text>
+    <text x="0" y="168" text-anchor="middle" class="stat-sub c-muted">Consistent Code Shipping</text>
   </g>
 
-  <!-- Right Column: Multi-Stack Breadth -->
-  <g transform="translate(412.5, 0)">
-    <text x="0" y="78" text-anchor="middle" class="stat-num">8+</text>
-    <text x="0" y="108" text-anchor="middle" class="stat-label">Core Languages</text>
-    <text x="0" y="130" text-anchor="middle" class="stat-sub">Dart • Python • TS/JS</text>
-    <text x="0" y="150" text-anchor="middle" class="stat-sub">SQL • PHP • HTML/CSS • C</text>
+  <!-- Right Column (Center x=450): Multi-Stack Breadth -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="80" text-anchor="middle" class="stat-num c-white">8+</text>
+    <text x="0" y="112" text-anchor="middle" class="stat-label c-purple">Core Languages</text>
+    <text x="0" y="136" text-anchor="middle" class="stat-sub c-muted">Dart • Python • TS/JS</text>
+    <text x="0" y="158" text-anchor="middle" class="stat-sub c-muted">SQL • PHP • HTML • C</text>
   </g>
 </svg>
